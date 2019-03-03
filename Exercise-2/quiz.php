@@ -1,6 +1,6 @@
 <?php
 $dom = new DomDocument;
-$q1 = $dom->getElementById("Q1").value;
+$q1 = $dom->getElementById("Q1")->value;
 echo "<ul>";
 echo "<li> $q1 " . $_GET["Q1"] . "</li>";
 echo "<li> Option selected for question 2: " . $_GET["Q2"] . "</li>";
