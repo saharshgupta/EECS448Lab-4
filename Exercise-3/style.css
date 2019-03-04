@@ -1,3 +1,14 @@
+input
+{
+    color: aliceblue;
+}
+
+div
+{
+    color: aliceblue;
+    background-color: antiquewhite;
+}
+
 p
 {
     color: red;
@@ -13,10 +24,9 @@ table
 td
 {
     border-style: groove;
-    background-color: green;
+    background-color: rgb(140, 207, 140);
     color: black;
     text-align: center;
-    width: 20px;
 }
 
 th
@@ -24,5 +34,4 @@ th
     border-style: groove;
     background-color: rgb(109, 109, 221);
     text-align: center;
-    width: 20px;
 }
