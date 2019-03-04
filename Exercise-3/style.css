@@ -5,6 +5,7 @@ p
 
 table
 {
+    border-style: double;
     border-color: black;
     border-width: 3px;
 }
