@@ -1,10 +1,10 @@
 <?php
 echo "<html><body><ul>";
-echo "Question: " . $_GET["Q1"] . "<br> Answer Selected: " . $_GET["A1"] . "<br> Correct Answer: Option 1" . "<br>";
-echo "Question: " . $_GET["Q2"] . "<br> Answer Selected: " . $_GET["A2"] . "<br> Correct Answer: Option 1" . "<br>";
-echo "Question: " . $_GET["Q3"] . "<br> Answer Selected: " . $_GET["A3"] . "<br> Correct Answer: Option 1" . "<br>";
-echo "Question: " . $_GET["Q4"] . "<br> Answer Selected: " . $_GET["A4"] . "<br> Correct Answer: Option 1" . "<br>";
-echo "Question: " . $_GET["Q5"] . "<br> Answer Selected: " . $_GET["A5"] . "<br> Correct Answer: Option 1" . "<br>";
+echo "<b> Question: </b>" . $_GET["Q1"] . "<br> <b> Answer Selected: </b>" . $_GET["A1"] . "<br> <b> Correct Answer: Option 1 </b>" . "<br>";
+echo "<b> Question: </b>" . $_GET["Q2"] . "<br> <b> Answer Selected: </b>" . $_GET["A2"] . "<br> <b> Correct Answer: Option 1 </b>" . "<br>";
+echo "<b> Question: </b>" . $_GET["Q3"] . "<br> <b> Answer Selected: </b>" . $_GET["A3"] . "<br> <b> Correct Answer: Option 1 </b>" . "<br>";
+echo "<b> Question: </b>" . $_GET["Q4"] . "<br> <b> Answer Selected: </b>" . $_GET["A4"] . "<br> <b> Correct Answer: Option 1 </b>" . "<br>";
+echo "<b> Question: </b>" . $_GET["Q5"] . "<br> <b> Answer Selected: </b>" . $_GET["A5"] . "<br> <b> Correct Answer: Option 1 </b>" . "<br>";
 echo "</ul>";
 $a1 = $_GET["A1"];
 $a2 = $_GET["A2"];
@@ -27,6 +27,6 @@ if($a4=="Option 1"){
 if($a5=="Option 1"){
     $cor_count++;
 }
-echo "<p> The total score is: $cor_count/5 </p>";
+echo "<p> <b> The total score is: </b> $cor_count/5 </p>";
 echo "</body></html>";
 ?>
