@@ -12,19 +12,19 @@ $a3 = $_POST["A3"];
 $a4 = $_POST["A4"];
 $a5 = $_POST["A5"];
 $cor_count = 0;
-if($a1=="Option 3") {
+if($a1=="Topeka") {
     $cor_count++;
 }
-if($a2=="Option 1"){
+if($a2=="Pacific Ocean"){
     $cor_count++;
 }
-if($a3=="Option 2"){
+if($a3=="64"){
     $cor_count++;
 }
-if($a4=="Option 3"){
+if($a4=="13"){
     $cor_count++;
 }
-if($a5=="Option 4"){
+if($a5=="2472"){
     $cor_count++;
 }
 $score = $cor_count*100/5;
