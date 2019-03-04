@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script src="formChecker.js"></script>
+        <div>
+            <form method="POST" onsubmit="formCheck()" action="customerBackend.php">
+                <b>Username: </b><input type="email" placeholder="example@domain.com" name="user" value=""><br>
+                <b>Password: </b> <input type="password" placeholder="password" name="pass" value=""> <br>
+                <b>Products available: </b><br>
+                <b>Item 1</b><img>Price: $10<br>
+                Quantity: <input type="number" name="QI1" min="0" value=""><br>
+                <b>Item 2</b><img> Price: $50<br>
+                Quantity: <input type="number" name="QI2" min="0" value=""><br>
+                <b>Item 3</b><img> Price: $500<br>
+                Quantity: <input type="number" name="QI3" min="0" value=""><br>
+                <b>Shipping Option: </b><br>
+                <input type="radio" name="shipopt" value=0> Free 7 day Shipping ($0) <br>
+                <input type="radio" name="shipopt" value=5> Three day Shipping ($5) <br>
+                <input type="radio" name="shipopt" value=50> Overnight Shipping ($50) <br>
+                <input type="reset">
+                <input type="submit">
+            </form>
+            <p id = "ferror"></p>
+            <p id = "serror"></p>
+        </div>
+    </body>
+</html>
