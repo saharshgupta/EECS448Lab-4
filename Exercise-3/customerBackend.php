@@ -24,7 +24,7 @@
             echo "<tr> <th> Item 1 </th> <td> $q1 </td> <td> 10 </td> <td> $c1 </td> </tr>";
             echo "<tr> <th> Item 2 </th> <td> $q2 </td> <td> 50 </td> <td> $c2 </td> </tr>";
             echo "<tr> <th> Item 3 </th> <td> $q3 </td> <td> 500 </td> <td> $c3 </td> </tr>";
-            echo "<tr> <th> Shipping: </th> <td> $st </td> <td> Cost: $so </td> </tr>"
+            echo "<tr> <th> Shipping: </th> <td> $st </td> <td> Cost: $so </td> </tr>";
             echo "</table>";
         ?>
     </body>
