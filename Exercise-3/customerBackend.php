@@ -2,6 +2,8 @@
 <link href="style.css" rel="stylesheet">
     <body>
         <?php
+            $user = $_POST["user"];
+            $pass = $_POST["pass"];
             $q1 = $_POST["QI1"];
             $c1 = $q1*10;
             $q2 = $_POST["QI2"];
@@ -16,8 +18,8 @@
             if($so == 50)
                 $st = "Overnight";
             $tc = $c1 + $c2+ $c3 + $so;
+            echo "Hello $user, your password is: $pass";
             echo "<h3> Reciept: </h3>";
-
             echo "<table>";
             echo "<tr><td></td> <th> Quantity </th> <th> Price </th> <th> Cost </th> </tr>";
             echo "<tr> <th> Item 1 </th> <td> $q1 </td> <td> 10 </td> <td> $c1 </td> </tr>";
