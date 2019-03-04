@@ -17,5 +17,4 @@ function formCheck(){
         se.innerHTML = "Error: Must pick a shipping option";
         event.preventDefault();
     }
-    //alert(qi1+qi2+qi3);
 }
