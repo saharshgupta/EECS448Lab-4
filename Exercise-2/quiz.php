@@ -27,5 +27,5 @@ if($a4=="Option 1"){
 if($a5=="Option 1"){
     $cor_count++;
 }
-echo "<p> The total score is: " . ($cor_count/5)*100;
+echo "<p> The total score is: $cor_count";
 ?>
