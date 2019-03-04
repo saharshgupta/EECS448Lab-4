@@ -12,6 +12,7 @@ table
 
 td
 {
+    border-style: groove;
     background-color: green;
     color: black;
     text-align: center;
@@ -20,6 +21,7 @@ td
 
 th
 {
+    border-style: groove;
     background-color: rgb(109, 109, 221);
     text-align: center;
     width: 20px;
