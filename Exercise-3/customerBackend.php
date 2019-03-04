@@ -1,4 +1,5 @@
 <html>
+<link href="style.css" rel="stylesheet">
     <body>
         <?php
             $q1 = $_POST["QI1"];

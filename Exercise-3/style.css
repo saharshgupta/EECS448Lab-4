@@ -1,0 +1,21 @@
+p
+{
+    color: red;
+}
+
+table
+{
+    border-color: black;
+    border-width: 3px;
+}
+
+td
+{
+    background-color: green;
+    color: black;
+}
+
+th
+{
+    background-color: rgb(109, 109, 221);
+}
